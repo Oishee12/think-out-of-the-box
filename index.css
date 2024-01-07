@@ -46,28 +46,30 @@ body {
 
 .text {
     height: 800px;
+    /* width: 100%; universal tag er vitor max width na dile eta dite hoto ekhane*/
     background-color: rgb(211, 211, 211);
     background-image: url('./images/banner/banner2.png');
     background-repeat: no-repeat;
 }
 
-/* start main */
-
 /* section-one */
 .section-one {
     display: flex;
-    gap: 90px;
+    gap: 85px;
     margin: 130px 322px 130px 206px;
     border: 1px solid black;
 }
 
-/* .section-one-image{
+/* .section-one-image {
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+} */
+
+.section-one-text {
     width: 50%;
 }
-
-.section-one-text{
-    width: 50%;
-} */
 
 .section-one-heading {
     color: #151414;
@@ -84,6 +86,10 @@ body {
     line-height: 26px;
 }
 
-section li{
+section li {
     list-style: none;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
 }
