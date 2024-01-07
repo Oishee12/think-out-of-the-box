@@ -93,3 +93,63 @@ section li {
     font-weight: 400;
     margin-bottom: 5px;
 }
+
+/* section-two */
+
+.section-two {
+    margin: 130px 230px;
+    border: 1px solid black;
+
+}
+
+.section-two-heading {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.section-two-container {
+    display: flex;
+    gap: 85px;
+}
+
+.skills-one-image {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.skills-one-heading {
+    margin-bottom: 10px;
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.skills-one-pera {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* section-three */
+
+.section-three{
+    margin: 130px 230px;
+}
+
+.section-three-heading {
+    /* color: #FFF; */
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-three-button {
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
