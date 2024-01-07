@@ -44,9 +44,46 @@ body {
     padding-bottom: 170px;
 }
 
-.text{
+.text {
     height: 800px;
     background-color: rgb(211, 211, 211);
     background-image: url('./images/banner/banner2.png');
     background-repeat: no-repeat;
+}
+
+/* start main */
+
+/* section-one */
+.section-one {
+    display: flex;
+    gap: 90px;
+    margin: 130px 322px 130px 206px;
+    border: 1px solid black;
+}
+
+/* .section-one-image{
+    width: 50%;
+}
+
+.section-one-text{
+    width: 50%;
+} */
+
+.section-one-heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.section-one-pera {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+
+section li{
+    list-style: none;
 }
